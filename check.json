@@ -1,0 +1,42 @@
+//make sure no sphere is FrontSide
+const skyMaterial = new THREE.MeshBasicMaterial({
+  color: 0x000000,
+  side: THREE.BackSide, // ⭐ 一定是 BackSide
+  depthWrite: false, // ⭐ 不寫入 depth
+  depthTest: false, // ⭐ 不參與遮擋
+  transparent: true
+});
+
+// add a new sphere, its radius is 500, and has a control bar to adjust the strength 
+const pollutionMaterial = new THREE.ShaderMaterial({
+  transparent: true,
+  depthWrite: false,
+  side: THREE.BackSide,
+  uniforms: {
+    strength: { value: 0.6
+        }, // 空汙強度
+    horizonPower: { value: 2.0
+        } // 地平線集中程度
+    },
+  vertexShader: `
+    varying vec3 vPos;
+    void main() {
+      vPos = normalize(position);
+      gl_Position = projectionMatrix * modelViewMatrix * vec4(position,
+        1.0);
+    }
+  `,
+  fragmentShader: `
+    varying vec3 vPos;
+    uniform float strength;
+    uniform float horizonPower;
+
+    void main() {
+      float altitude = vPos.y * 0.5 + 0.5; // -1~1 → 0~1
+      float haze = pow(1.0 - altitude, horizonPower);
+      gl_FragColor = vec4(0.9,
+        0.6,
+        0.3, haze * strength);
+    }
+  `
+});

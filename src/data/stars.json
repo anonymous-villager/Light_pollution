@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "coordinate_system": "ICRS",
+        "epoch": "J2000",
+        "units": {
+            "angle": "degree",
+            "magnitude": "V",
+            "radius": "solar_radius"
+        }
+    },
+    "constellations": [
+        {
+            "id": "aries",
+            "name": "Aries",
+            "chinese_name": "白羊座",
+            "min_stars": 3,
+            "stars": [
+                {
+                    "id": "hamal",
+                    "ra": 31.793,
+                    "dec": 23.462,
+                    "magnitude": 2.01,
+                    "radius": 15
+                },
+                {
+                    "id": "sheratan",
+                    "ra": 28.660,
+                    "dec": 20.808,
+                    "magnitude": 2.64,
+                    "radius": 2.9
+                },
+                {
+                    "id": "mesarthim",
+                    "ra": 28.382,
+                    "dec": 19.294,
+                    "magnitude": 3.88,
+                    "radius": 2.6
+                }
+            ],
+            "edges": [
+                [
+                    "hamal",
+                    "sheratan"
+                ],
+                [
+                    "sheratan",
+                    "mesarthim"
+                ]
+            ]
+        },
+        {
+            "id": "taurus",
+            "name": "Taurus",
+            "chinese_name": "金牛座",
+            "min_stars": 4,
+            "stars": [
+                {
+                    "id": "aldebaran",
+                    "ra": 68.980,
+                    "dec": 16.509,
+                    "magnitude": 0.87,
+                    "radius": 44
+                },
+                {
+                    "id": "elnath",
+                    "ra": 81.572,
+                    "dec": 28.607,
+                    "magnitude": 1.65,
+                    "radius": 4.2
+                },
+                {
+                    "id": "alcyone",
+                    "ra": 56.871,
+                    "dec": 24.105,
+                    "magnitude": 2.87,
+                    "radius": 9.3
+                },
+                {
+                    "id": "atlas",
+                    "ra": 57.291,
+                    "dec": 24.053,
+                    "magnitude": 3.63,
+                    "radius": 5.8
+                }
+            ],
+            "edges": [
+                [
+                    "aldebaran",
+                    "elnath"
+                ],
+                [
+                    "elnath",
+                    "atlas"
+                ],
+                [
+                    "atlas",
+                    "alcyone"
+                ]
+            ]
+        },
+        {
+            "id": "gemini",
+            "name": "Gemini",
+            "chinese_name": "雙子座",
+            "min_stars": 2,
+            "stars": [
+                {
+                    "id": "castor",
+                    "ra": 113.650,
+                    "dec": 31.888,
+                    "magnitude": 1.58,
+                    "radius": 2.4
+                },
+                {
+                    "id": "pollux",
+                    "ra": 116.329,
+                    "dec": 28.026,
+                    "magnitude": 1.14,
+                    "radius": 8.8
+                }
+            ],
+            "edges": [
+                [
+                    "castor",
+                    "pollux"
+                ]
+            ]
+        },
+        {
+            "id": "cancer",
+            "name": "Cancer",
+            "chinese_name": "巨蟹座",
+            "min_stars": 3,
+            "stars": [
+                {
+                    "id": "altarf",
+                    "ra": 130.821,
+                    "dec": 21.468,
+                    "magnitude": 3.52,
+                    "radius": 47
+                },
+                {
+                    "id": "asellus_borealis",
+                    "ra": 131.171,
+                    "dec": 21.444,
+                    "magnitude": 4.26,
+                    "radius": 2.3
+                },
+                {
+                    "id": "asellus_australis",
+                    "ra": 131.674,
+                    "dec": 18.154,
+                    "magnitude": 3.94,
+                    "radius": 11
+                }
+            ],
+            "edges": [
+                [
+                    "altarf",
+                    "asellus_borealis"
+                ],
+                [
+                    "altarf",
+                    "asellus_australis"
+                ]
+            ]
+        },
+        {
+            "id": "leo",
+            "name": "Leo",
+            "chinese_name": "獅子座",
+            "min_stars": 6,
+            "stars": [
+                {
+                    "id": "regulus",
+                    "ra": 152.092,
+                    "dec": 11.967,
+                    "magnitude": 1.35,
+                    "radius": 4.2
+                },
+                {
+                    "id": "denebola",
+                    "ra": 177.265,
+                    "dec": 14.572,
+                    "magnitude": 2.14,
+                    "radius": 1.7
+                },
+                {
+                    "id": "algieba",
+                    "ra": 154.993,
+                    "dec": 19.842,
+                    "magnitude": 2.01,
+                    "radius": 23
+                },
+                {
+                    "id": "zosma",
+                    "ra": 168.527,
+                    "dec": 20.524,
+                    "magnitude": 2.56,
+                    "radius": 2.1
+                },
+                {
+                    "id": "chertan",
+                    "ra": 171.220,
+                    "dec": 15.429,
+                    "magnitude": 3.34,
+                    "radius": 4.6
+                },
+                {
+                    "id": "adhafera",
+                    "ra": 151.833,
+                    "dec": 23.417,
+                    "magnitude": 3.44,
+                    "radius": 6
+                }
+            ],
+            "edges": [
+                [
+                    "regulus",
+                    "algieba"
+                ],
+                [
+                    "algieba",
+                    "adhafera"
+                ],
+                [
+                    "algieba",
+                    "zosma"
+                ],
+                [
+                    "zosma",
+                    "chertan"
+                ],
+                [
+                    "chertan",
+                    "denebola"
+                ]
+            ]
+        },
+        {
+            "id": "virgo",
+            "name": "Virgo",
+            "chinese_name": "處女座",
+            "min_stars": 5,
+            "stars": [
+                {
+                    "id": "spica",
+                    "ra": 201.298,
+                    "dec": -11.161,
+                    "magnitude": 0.98,
+                    "radius": 7.4
+                },
+                {
+                    "id": "zavijava",
+                    "ra": 177.673,
+                    "dec": 1.764,
+                    "magnitude": 3.61,
+                    "radius": 1.6
+                },
+                {
+                    "id": "porrima",
+                    "ra": 190.416,
+                    "dec": -1.449,
+                    "magnitude": 2.74,
+                    "radius": 1.5
+                },
+                {
+                    "id": "auva",
+                    "ra": 193.507,
+                    "dec": 3.558,
+                    "magnitude": 3.38,
+                    "radius": 10
+                },
+                {
+                    "id": "vindemiatrix",
+                    "ra": 195.545,
+                    "dec": 10.959,
+                    "magnitude": 2.85,
+                    "radius": 11
+                }
+            ],
+            "edges": [
+                [
+                    "spica",
+                    "porrima"
+                ],
+                [
+                    "porrima",
+                    "zavijava"
+                ],
+                [
+                    "zavijava",
+                    "vindemiatrix"
+                ],
+                [
+                    "porrima",
+                    "auva"
+                ]
+            ]
+        },
+        {
+            "id": "libra",
+            "name": "Libra",
+            "chinese_name": "天秤座",
+            "min_stars": 4,
+            "stars": [
+                {
+                    "id": "zubenelgenubi",
+                    "ra": 222.719,
+                    "dec": -16.041,
+                    "magnitude": 2.75,
+                    "radius": 5
+                },
+                {
+                    "id": "zubeneschamali",
+                    "ra": 229.251,
+                    "dec": -9.383,
+                    "magnitude": 2.61,
+                    "radius": 3.4
+                },
+                {
+                    "id": "bunda",
+                    "ra": 225.486,
+                    "dec": -28.091,
+                    "magnitude": 2.58,
+                    "radius": 6
+                },
+                {
+                    "id": "zubenelhakrabi",
+                    "ra": 233.882,
+                    "dec": -14.789,
+                    "magnitude": 3.91,
+                    "radius": 2
+                }
+            ],
+            "edges": [
+                [
+                    "zubenelgenubi",
+                    "zubeneschamali"
+                ],
+                [
+                    "zubenelgenubi",
+                    "bunda"
+                ],
+                [
+                    "zubeneschamali",
+                    "zubenelhakrabi"
+                ]
+            ]
+        },
+        {
+            "id": "scorpio",
+            "name": "Scorpius",
+            "chinese_name": "天蠍座",
+            "min_stars": 5,
+            "stars": [
+                {
+                    "id": "antares",
+                    "ra": 247.351,
+                    "dec": -26.432,
+                    "magnitude": 1.06,
+                    "radius": 680
+                },
+                {
+                    "id": "acrux",
+                    "ra": 241.701,
+                    "dec": -19.805,
+                    "magnitude": 2.56,
+                    "radius": 8
+                },
+                {
+                    "id": "dschubba",
+                    "ra": 240.083,
+                    "dec": -22.622,
+                    "magnitude": 2.32,
+                    "radius": 6
+                },
+                {
+                    "id": "shaula",
+                    "ra": 263.402,
+                    "dec": -37.104,
+                    "magnitude": 1.62,
+                    "radius": 8.8
+                },
+                {
+                    "id": "sargas",
+                    "ra": 263.054,
+                    "dec": -42.998,
+                    "magnitude": 1.87,
+                    "radius": 26
+                }
+            ],
+            "edges": [
+                [
+                    "dschubba",
+                    "antares"
+                ],
+                [
+                    "antares",
+                    "shaula"
+                ],
+                [
+                    "shaula",
+                    "sargas"
+                ],
+                [
+                    "antares",
+                    "acrux"
+                ]
+            ]
+        },
+        {
+            "id": "sagittarius",
+            "name": "Sagittarius",
+            "chinese_name": "射手座",
+            "min_stars": 6,
+            "stars": [
+                {
+                    "id": "kaus_australis",
+                    "ra": 276.043,
+                    "dec": -34.384,
+                    "magnitude": 1.79,
+                    "radius": 6.8
+                },
+                {
+                    "id": "kaus_media",
+                    "ra": 274.407,
+                    "dec": -26.297,
+                    "magnitude": 2.70,
+                    "radius": 4.3
+                },
+                {
+                    "id": "kaus_borealis",
+                    "ra": 273.440,
+                    "dec": -25.421,
+                    "magnitude": 2.82,
+                    "radius": 4
+                },
+                {
+                    "id": "nunki",
+                    "ra": 283.816,
+                    "dec": -26.296,
+                    "magnitude": 2.05,
+                    "radius": 4.5
+                },
+                {
+                    "id": "ascella",
+                    "ra": 287.440,
+                    "dec": -29.828,
+                    "magnitude": 2.60,
+                    "radius": 9
+                },
+                {
+                    "id": "polis",
+                    "ra": 281.793,
+                    "dec": -25.421,
+                    "magnitude": 3.30,
+                    "radius": 6
+                }
+            ],
+            "edges": [
+                [
+                    "kaus_borealis",
+                    "kaus_media"
+                ],
+                [
+                    "kaus_media",
+                    "kaus_australis"
+                ],
+                [
+                    "kaus_media",
+                    "nunki"
+                ],
+                [
+                    "nunki",
+                    "ascella"
+                ]
+            ]
+        },
+        {
+            "id": "capricornus",
+            "name": "Capricornus",
+            "chinese_name": "摩羯座",
+            "min_stars": 4,
+            "stars": [
+                {
+                    "id": "deneb_algiedi",
+                    "ra": 326.046,
+                    "dec": -16.127,
+                    "magnitude": 2.85,
+                    "radius": 3
+                },
+                {
+                    "id": "dabih",
+                    "ra": 305.252,
+                    "dec": -14.781,
+                    "magnitude": 3.05,
+                    "radius": 5
+                },
+                {
+                    "id": "nashira",
+                    "ra": 329.827,
+                    "dec": -22.223,
+                    "magnitude": 3.68,
+                    "radius": 4
+                },
+                {
+                    "id": "prima_giedi",
+                    "ra": 303.867,
+                    "dec": -12.544,
+                    "magnitude": 3.58,
+                    "radius": 3
+                }
+            ],
+            "edges": [
+                [
+                    "dabih",
+                    "prima_giedi"
+                ],
+                [
+                    "prima_giedi",
+                    "deneb_algiedi"
+                ],
+                [
+                    "deneb_algiedi",
+                    "nashira"
+                ]
+            ]
+        },
+        {
+            "id": "aquarius",
+            "name": "Aquarius",
+            "chinese_name": "水瓶座",
+            "min_stars": 5,
+            "stars": [
+                {
+                    "id": "sadalmelik",
+                    "ra": 331.445,
+                    "dec": -0.319,
+                    "magnitude": 2.95,
+                    "radius": 60
+                },
+                {
+                    "id": "sadalsuud",
+                    "ra": 345.943,
+                    "dec": -9.622,
+                    "magnitude": 2.87,
+                    "radius": 50
+                },
+                {
+                    "id": "skath",
+                    "ra": 338.673,
+                    "dec": -15.820,
+                    "magnitude": 3.27,
+                    "radius": 2.4
+                },
+                {
+                    "id": "albali",
+                    "ra": 326.934,
+                    "dec": -5.872,
+                    "magnitude": 3.77,
+                    "radius": 2.3
+                },
+                {
+                    "id": "ancha",
+                    "ra": 334.208,
+                    "dec": -7.783,
+                    "magnitude": 4.17,
+                    "radius": 2
+                }
+            ],
+            "edges": [
+                [
+                    "sadalmelik",
+                    "albali"
+                ],
+                [
+                    "albali",
+                    "ancha"
+                ],
+                [
+                    "ancha",
+                    "sadalsuud"
+                ],
+                [
+                    "sadalsuud",
+                    "skath"
+                ]
+            ]
+        },
+        {
+            "id": "pisces",
+            "name": "Pisces",
+            "chinese_name": "雙魚座",
+            "min_stars": 5,
+            "stars": [
+                {
+                    "id": "alrescha",
+                    "ra": 30.511,
+                    "dec": 2.763,
+                    "magnitude": 3.82,
+                    "radius": 3
+                },
+                {
+                    "id": "eta_piscium",
+                    "ra": 20.272,
+                    "dec": 15.345,
+                    "magnitude": 3.62,
+                    "radius": 2.1
+                },
+                {
+                    "id": "gamma_piscium",
+                    "ra": 23.285,
+                    "dec": 3.283,
+                    "magnitude": 3.70,
+                    "radius": 10
+                },
+                {
+                    "id": "omega_piscium",
+                    "ra": 9.146,
+                    "dec": 21.172,
+                    "magnitude": 4.01,
+                    "radius": 2
+                },
+                {
+                    "id": "iota_piscium",
+                    "ra": 351.992,
+                    "dec": 5.083,
+                    "magnitude": 4.13,
+                    "radius": 2
+                }
+            ],
+            "edges": [
+                [
+                    "alrescha",
+                    "gamma_piscium"
+                ],
+                [
+                    "gamma_piscium",
+                    "eta_piscium"
+                ],
+                [
+                    "gamma_piscium",
+                    "omega_piscium"
+                ],
+                [
+                    "alrescha",
+                    "iota_piscium"
+                ]
+            ]
+        }
+    ]
+}
