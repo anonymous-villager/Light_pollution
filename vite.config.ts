@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Light-pollution/',
+  base: '/Light_pollution/',
   plugins: [react()],
   server: {
     proxy: {
